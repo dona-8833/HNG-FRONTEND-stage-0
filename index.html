@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <article data-testid="test-profile-card">
+      <!-- header -->
+      <div class="card-header">
+        <div class="avatar-container">
+          <img src="/asset/avatar.jpg" alt="profile picture" data-testid="test-user-avatar" />
+        </div>
+        <div class="user-info">
+          <h1 data-testid="test-user-name">Akintola Abdulsamad</h1>
+          <p data-testid="test-user-bio">
+            Passionate frontend developer . I love creating beautiful,
+            accessible web experiences that make a difference. Always learning,
+            always building.
+          </p>
+          <div class="time-container">
+            <span class="time-label">Current Time (ms)</span>
+            <span data-testid="test-user-time" id="currentTime"></span>
+          </div>
+        </div>
+      </div>
+      <!-- social links-->
+      <nav data-testid="test-user-social-links">
+        <a href="https://x.com/Asap_og3" target="_blank"  data-testid=" test-user-social-links-twitter">twitter</a>
+        <a href="https://github.com/dona-8833"target="_blank"  data-testid="test-user-social-links-github">github</a>
+        <a href="https://www.linkedin.com/in/akintola-abdulsamad-128205344/" target="_blank" data-testid="test-user-social-links-linkedin">linkedin</a>
+      </nav>
+      <!-- hobbies & dislikes -->
+      <div class="lists-container">
+        <section class="list-section">
+          <h2>Hobbies</h2>
+          <ul data-testid="test-user-hobbies">
+            <li>Coding side projects</li>
+            <li>Reading tech blogs</li>
+            <li>Learning new technologies</li>
+            <li>Playing video games</li>
+            <li>Watching tech tutorials</li>
+          </ul>
+        </section>
+
+        <section class="list-section">
+          <h2>Dislikes</h2>
+          <ul data-testid="test-user-dislikes">
+            <li>Poorly documented code</li>
+            <li>Merge conflicts</li>
+            <li>Traffic jams</li>
+            <li>Outdated softwares</li>
+            
+          </ul>
+        </section>
+      </div>
+    </article>
+  </body>
+</html>
